@@ -1,3 +1,32 @@
+
+
+
+
 # CatchBall 
-https://play.google.com/store/apps/details?id=com.Wallace92.CatchBall
-Android game made by Unity2018
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+ Android game made by Unity2018 <br>
+  https://play.google.com/store/apps/details?id=com.Wallace92.CatchBall
+<ul>
+  <li>"The equation of Gauss distribution </li>
+  <p>
+  $$   f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp{-\frac{(x-\mu)^2}{2\sigma^2}} $$ 
+    
+   where $ \mu $ is mean of all data, $ \sigma $ denote standard deviation
+</p>
+  <li>The standar deviation is expressed as:
+  
+  $$ \sigma = \frac{\sum_{i=1}^N (x_i - \mu)}{N} $$
+
+</li>
+  <li>The Gauss distribution very well fit many experimental data and determine the probability of occurence each of it</li>
+</ul>
+Finally the graph is presented using matplotlib library with beatiful latex graphics. The straight line at the middle shows the mean value of approximated data.
+</body>
+</html>

@@ -22,7 +22,7 @@
 </p>
   <p>
    <li> <h2> LevelChanger and Level Easy/Mediumn/Hard scenes </h2></li>
-  <li>After start game button pressed the menu scenes is unloaded and LevelChanger (<b>LevelChangerController.cs</b>) loaded. The player can choose between three different difficulty levels Easy/Medium/Hard which load appropriate scenes and scripts controllers (<b>LevelEasyController.cs</b>, <b>LevelMediumController.cs</b>, <b>LevelHardController.cs</b>) correspondingly. Each level is a prefab (sprites + text) spawned by this controllers. All prefabs can also move by Touch the screen and move the finger. The children of text number of each prefab is a key for appropriate dictionary of levels and will loaded appropraite parameters to each levels before game will start. </li>
+  <li>After start game button pressed the menu scenes is unloaded and LevelChanger (<b>LevelChangerController.cs</b>) loaded. The player can choose between three different difficulty levels Easy/Medium/Hard which load appropriate scenes and scripts controllers (<b>LevelEasyController.cs</b>, <b>LevelMediumController.cs</b>, <b>LevelHardController.cs</b>) correspondingly. Each level is a prefab (sprites + text) spawned by this controllers. All prefabs can also move by Touch the screen and move the finger (<b>MoveCanvas.cs</b>). The children of text number of each prefab is a key for appropriate dictionary of levels and will loaded appropraite parameters to each levels before game will start. </li>
   </p>
   
    <p>

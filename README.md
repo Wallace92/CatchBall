@@ -18,10 +18,12 @@
 <ul>
   <li> <h2> Background and Menu scenes </h2></li>
   <p>
- These two scenes are loaded in the first order. The background scene loads movable background images (<b>BackgroundDontDestroy.cs</b>). In the menu scenes all essential buttons  (start game, mute music and show leaderboard) are shown. In this moment the levels are generated or loaded from files using  (<b>swap.cs</b>) script, in the background music starts to play (<b>DontDestroy.cs</b>) and (<b>MusicControl.cs</b>). Leaderboard inicjalization requires own script (<b>LeaderboardInitialization.cs</b>) as well here an sign in to Google Plays Api appears by (<b>PlayGamesScript.cs</b>). Each created level posses unique dictionaries with velocities and times as values and level numbers as key. Music can be muted in free time. 
+ These two scenes are loaded in the first order preceding by loading progres bar (<b>LoadingScreenScript.cs</b>). The background scene loads movable background images (<b>BackgroundDontDestroy.cs</b>). In the menu scenes all essential buttons  (start game, mute music and show leaderboard) are shown. In this moment the levels are generated or loaded from files using  (<b>swap.cs</b>) script, in the background music starts to play (<b>DontDestroy.cs</b>) and (<b>MusicControl.cs</b>). Leaderboard inicjalization requires own script (<b>LeaderboardInitialization.cs</b>) as well here an sign in to Google Plays Api appears by (<b>PlayGamesScript.cs</b>). Each created level posses unique dictionaries with velocities and times as values and level numbers as key. Music can be muted in free time. 
 </p>
    <li> <h2> LevelChanger and Level Easy/Mediumn/Hard scenes </h2></li>
-  <li>The Gauss distribution very well fit many experimental data and determine the probability of occurence each of it</li>
+  <li>After start game button pressed the menu scenes is unloaded and LevelChanger (<b>LevelChangerController.cs</b>) loaded. The player can choose between three different difficulty levels Easy/Medium/Hard which load appropriate scenes and scripts controllers (<b>LevelEasyController.cs</b>, <b>LevelMediumController.cs</b>, <b>LevelHardController.cs</b>) correspondingly. Each level is a prefab (sprites + text) spawned by this controllers. All prefabs can also move by Touch the screen and move the finger. The children of text number of each prefab is a key for appropriate dictionary of levels and will loaded appropraite parameters to each levels before game will start. </li>
+  
+  
 </ul>
 Finally the graph is presented using matplotlib library with beatiful latex graphics. The straight line at the middle shows the mean value of approximated data.
 </body>

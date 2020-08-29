@@ -16,7 +16,7 @@
   Responsie arcade game CatchBall consist of 5 scenes and 22 scripts (over 8000 lines of code). A lot of different assets like vector graphcis created using Inkscape program or music downloaded from freesounds.com. Each script posses some unique feature used in these scenes (loaded or unloaded addtively).
   
 <ul>
-  <li>background and menu scenes </li>
+  <li> <h2> 1. background and menu scenes </h2></li>
   <p>
  These two scenes are loaded in the first order. The background scene loads movable background images (<b>BackgroundDontDestroy.cs</b>)
 </p>

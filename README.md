@@ -12,13 +12,13 @@
 </head>
 <body>
  Android game made by Unity2018 <br>
-  https://play.google.com/store/apps/details?id=com.Wallace92.CatchBall
+  https://play.google.com/store/apps/details?id=com.Wallace92.CatchBall  <br>
+  Responsie arcade game CatchBall consist of 5 scenes and 22 scripts (over 8000 lines of code). A lot of different assets like vector graphcis created using Inkscape program or music downloaded from freesounds.com. Each script posses some unique feature used in these scenes (loaded or unloaded addtively).
+  
 <ul>
-  <li>"The equation of Gauss distribution </li>
+  <li>background and menu scenes </li>
   <p>
-  $$   f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp{-\frac{(x-\mu)^2}{2\sigma^2}} $$ 
-    
-   where $ \mu $ is mean of all data, $ \sigma $ denote standard deviation
+ These two scenes are loaded in the first order. The background scene loads movable background images (<b>BackgroundDontDestroy.cs</b>)
 </p>
   <li>The standar deviation is expressed as:
   
